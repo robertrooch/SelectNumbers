@@ -20,6 +20,6 @@ public class SelectNumbers {
 
         Arrays.sort(numbers);
 
-        System.exit(0);
+        System.out.printf("%d, %d, %d%n", numbers[2], numbers[1], numbers[0]);
     }
 }
